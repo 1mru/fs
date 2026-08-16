@@ -2,5 +2,7 @@
 fsはファイルを検索するツールです。
 
 ## インストール手順
-[Releases](https://github.com/1mru/fs/releases/)からプログラムをダウンロード、実行してください。
-
+### Linux
+リポジトリをクローン後、プロジェクトフォルダ内で以下のコマンドを実行してください。
+ 
+    sudo make install

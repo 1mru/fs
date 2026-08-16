@@ -2,7 +2,12 @@
 #include <filesystem>
 
 void help() {
-  std::cout << "Help text\n";
+  std::cout << "Usage: fs <file>\n";
+  std::cout << "Search files by filename.\n";
+  std::cout << '\n';
+  std::cout << "Examples:\n";
+  std::cout << "  fs apple.txt\n";
+  std::cout << "  fs banana\n";
 }
 
 void search(const char* key) {
